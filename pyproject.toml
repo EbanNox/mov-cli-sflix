@@ -24,7 +24,8 @@ classifiers = [
 dependencies = [
     "requests",
     "importlib-metadata; python_version<'3.8'",
-    "mov-cli"
+    "mov-cli",
+    "pycryptodomex"
 ]
 
 dynamic = ["version"]
