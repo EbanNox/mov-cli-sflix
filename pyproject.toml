@@ -2,7 +2,7 @@
 name = "mov-cli-sflix"
 description = "plugin adds sflix scraper"
 authors = [
-    {name = "EbanNox", email = "alex.kodri@hotmail.com"}
+    {name = "EbanNox", email = "alex.kodri@hotmail.com"},
     {name = "Goldy", email = "goldy@devgoldy.xyz"}
 ]
 readme = {file = "README.md", content-type = "text/markdown"}
