@@ -1,7 +1,8 @@
 [project]
-name = "mov-cli-test"
-description = "A mov-cli plugin that let's you test mov-cli's capabilities by watching free films and animations in the creative commons."
+name = "mov-cli-sflix"
+description = "plugin adds sflix scraper"
 authors = [
+    {name = "EbanNox", email = "alex.kodri@hotmail.com"}
     {name = "Goldy", email = "goldy@devgoldy.xyz"}
 ]
 readme = {file = "README.md", content-type = "text/markdown"}
@@ -23,8 +24,7 @@ classifiers = [
 dependencies = [
     "requests",
     "importlib-metadata; python_version<'3.8'",
-
-    "pytube"
+    "mov-cli"
 ]
 
 dynamic = ["version"]
@@ -36,15 +36,15 @@ dev = [
 ]
 
 [project.urls]
-GitHub = "https://github.com/THEGOLDENPRO/mov-cli-test"
-BugTracker = "https://github.com/THEGOLDENPRO/mov-cli-test/issues"
+GitHub = "https://github.com/EbanNox/mov-cli-sflix"
+BugTracker = "https://github.com/EbanNox/mov-cli-sflix/issues"
 
 [tool.setuptools.dynamic]
-version = { attr = "mov_cli_test.__version__" }
+version = { attr = "mov_cli_sflix.__version__" }
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["mov_cli_test*"]
+include = ["mov_cli_sflix*"]
