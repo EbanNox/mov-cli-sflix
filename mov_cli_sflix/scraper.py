@@ -2,6 +2,17 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
+    from typing import List, Optional, Dict
+    from mov_cli import Config
+    from mov_cli.http_client import HTTPClient
+
+import re
+
+from mov_cli import utils
+from mov_cli.scraper import Scraper
+from mov_cli import Series, Movie, Metadata, MetadataType
+
+    
     from bs4 import Tag
     from ..config import Config
     from typing import List, Dict
